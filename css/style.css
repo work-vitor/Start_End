@@ -1,0 +1,353 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.wrapper {
+	background-color: #ffffff;
+	border-left: 2px;
+	border-right: 2px;
+	position: static;
+	left: 0;
+	right: 0;
+	margin: auto;
+	min-width: 450;
+	max-width: 1024;
+ 	min-height: 70%;
+	margin-top: 0px;
+	border-radius: 10px;
+}
+
+ul.navbar-top {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+	width: 100%;
+}
+#logo{
+	text-align: center;
+}
+.logos{
+	padding-top: 10;
+	padding-bottom: 10;
+	width: 237;
+	height: 80;
+}
+li{
+	float: left;
+}
+
+li a, .dropbtn{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 21px 16px;
+	text-decoration: none;
+	font-weight: 50;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: rgb(36, 36, 36);
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #000000;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: rgb(255, 255, 255);
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: rgb(36, 36, 36);
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+h2{
+	padding-right: 40px;
+	padding-left: 40px;
+	font-size: 40px;
+	margin: 0;
+}
+h3.quest{
+	padding-right: 40px;
+	padding-left: 40px;
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	font-weight: 100;
+	font-size: 20px;
+}
+p{
+
+	padding-right: 40px;
+	padding-left: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 50;
+	line-height: 27px;
+	line-break: initial;
+	color: #313131;
+  }
+hr{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+h2{
+	color: #ff7300;
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+	padding: 2px;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 70px;
+}
+h3{
+	color: #bebebe;
+	font-weight: 50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18;
+}
+.container{
+	text-align: center;
+	width: 100%;
+	height: 700;
+}
+.back-img{
+	width: 100%;
+}
+.text-back{
+	display: block;
+	text-align: left ;
+	font-family: 'News Cycle', sans-serif;
+	color: #ff7300;
+	font-weight: 400;
+	padding: 2px;
+	font-size: 70px;
+	line-height: 70px;
+	margin-bottom: 0%;
+	margin-top: 0; 
+}
+.text-bot-back{
+	display: block;
+	text-align: left ;
+	margin-top: 0%;
+}
+.container-text{
+	padding-top: 18%;
+	padding-left: 20; 
+	background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	padding-bottom: 100;
+	background-size: 100%;
+}
+.ilustracao{
+	padding-left: 40;
+	padding-right: 40;
+	width: 90%;
+}
+.font-img{
+	color: #696969;
+	margin-top: 0;
+	text-decoration: none;
+}
+.container-caragua-text{
+	padding-top: 18%;
+	padding-left: 20; 
+	background-image: url("../img/background-caragua.png");
+	background-repeat: no-repeat;
+	padding-bottom: 100;
+	background-size: 100%;
+}
+.text-back-caragua{
+	display: block;
+	text-align: left ;
+	font-family: 'News Cycle', sans-serif;
+	color: #ff7300;
+	font-weight: 400;
+	padding: 2px;
+	font-size: 70;
+	line-height: 70px;
+	margin-bottom: 0%;
+	padding-top: 100;
+	margin-top: 0;
+}
+.container-ubatuba-text{
+	padding-top: 18%;
+	padding-left: 20; 
+	background-image: url("../img/background-ubatuba.png");
+	background-repeat: no-repeat;
+	padding-bottom: 100;
+	background-size: 100%;
+}
+.container-ilhabela-text{
+	padding-top: 18%;
+	padding-left: 20; 
+	background-image: url("../img/background-ilhabela.png");
+	background-repeat: no-repeat;
+	padding-bottom: 100;
+	background-size: 100%;
+}
+.container-ssb-text{
+	padding-top: 18%;
+	padding-left: 20; 
+	background-image: url("../img/background-saoseba.png");
+	background-repeat: no-repeat;
+	padding-bottom: 100;
+	background-size: 100%;
+}
+.rodape {
+    width: 100%;
+    float: left;
+	padding-top: 1.5%;
+    text-align: center;
+	background-color: #313131;
+	margin-top: 3%;
+}
+.social-icons{
+	margin-bottom: 2%;
+}
+.social-icons a {
+    font-size: 2.7em;
+    color: white;
+	margin-left: 1%;
+}
+.social-icons a:hover {
+	color: #ff7300;
+}
+
+.copyright {
+	margin-top: 2%;
+	margin-bottom: 0;
+    color: white;
+}
+.gotop{
+	text-align: center;
+}
+.footer{
+	background-color: #313131;
+	width: 100%;
+	height: 230;
+}
+.gotop-txt{
+	color: white;
+	font-weight: 50;
+	margin-top: 30;
+	font-family: 'Roboto', sans-serif;
+	line-height: 27px;
+	text-decoration: none;
+}
+.gotop-a{
+	text-decoration: none;
+}
+
+.fonte1 {
+	text-decoration: none;
+	color: #696969;
+}
+.container-sobre-text{
+	padding-top: 18%;
+	padding-left: 20; 
+	background-image: url("../img/background-sobre.png");
+	background-repeat: no-repeat;
+	padding-bottom: 100;
+	background-size: 100%;
+}
+.text-back-sobre{
+	display: block;
+	text-align: left ;
+	font-family: 'News Cycle', sans-serif;
+	color: #ff7300;
+	font-weight: 400;
+	padding: 2px;
+	padding-bottom: 10;
+	font-size: 70;
+	line-height: 70px;
+	margin-bottom: 0%;
+	padding-top: 100;
+	margin-top: 0;
+}
+h3.questtocenter{
+	padding-right: 40px;
+	padding-left: 40px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #000000;
+	font-weight: 100;
+	font-size: 20px;
+}
+.newsletter h3{
+	text-align: center;
+	margin-top: 15;
+}
+.newsletter button{
+    background-color: #fff;
+    color: #000000;
+    padding: 1%;
+    border-radius: 5px;
+	cursor: pointer;
+	size: 1%;
+	margin-bottom: 10;
+}
+.login{
+    background-color: #ffffff;
+    color: #ff7300;
+    border: 1px solid #000000;
+    padding: 1%;
+	border-radius: 5px;
+	size: 1%;
+}
+.wppr{
+	text-align: center;
+	margin-top: 100;
+}
+.wppr a{
+	color: #ff7300;
+	font-style: normal;
+	text-decoration: none;
+}
+.rodapectt {
+    width: 100%;
+    float: left;
+	padding-top: 3%;
+	padding-bottom: 9;
+	margin-top: 4.2%;
+    text-align: center;
+    background-color: #313131;
+}
+#logoctt{
+	margin-top: 50;
+	text-align: center;
+}
+.newsletterr button{
+    background-color: #fff;
+    color: #000000;
+    padding: 1%;
+    border-radius: 5px;
+	cursor: pointer;
+	size: 1%;
+	margin-bottom: 10;
+}
+.ilustracaovid{
+	padding-left: 40;
+	padding-right: 40;
+	width: 90%;
+	padding-top: 50px;
+}
